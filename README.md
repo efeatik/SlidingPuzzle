@@ -51,11 +51,11 @@ gcc Puzzle.c -o Puzzle -lncurses
 
 | Tuş   | Açıklama    |
 | ----- | ----------- |
-| ↑ / W | Yukarı      |
-| ↓ / S | Aşağı       |
-| ← / A | Sol         |
-| → / D | Sağ         |
-| Q     | Oyundan çık |
+| ↑ / w | Yukarı      |
+| ↓ / s | Aşağı       |
+| ← / a | Sol         |
+| → / d | Sağ         |
+| q     | Oyundan çık |
 
 ---
 
