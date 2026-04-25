@@ -1,11 +1,11 @@
-# 🧩 8-Puzzle Game (C & ncurses)
+# 8-Puzzle Game (C & ncurses)
 
 Terminal tabanlı klasik **8-Puzzle (Sliding Puzzle)** oyunu.
 C dili ve `ncurses` kütüphanesi kullanılarak geliştirilmiştir.
 
 ---
 
-## 🎮 Oyun Hakkında
+## Oyun Hakkında
 
 8-Puzzle, 3x3’lük bir tahtada 1’den 8’e kadar numaralı taşları doğru sıraya dizmeye çalıştığınız klasik bir bulmaca oyunudur.
 
@@ -21,39 +21,33 @@ düzenine ulaşmaktır.
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
-* 🎲 Rastgele ama **çözülebilir** tahta oluşturma
-* 🎯 Kazanma durumu kontrolü
-* 🎮 Klavye ile kontrol (WASD veya yön tuşları)
-* 🔢 Hamle sayacı
-* 🖥️ Terminal tabanlı arayüz (`ncurses`)
+* Rastgele ama **çözülebilir** tahta oluşturma
+* Kazanma durumu kontrolü
+* Klavye ile kontrol (WASD veya yön tuşları)
+* Hamle sayacı
+* Terminal tabanlı arayüz (`ncurses`)
 
 ---
 
-## 🛠️ Gereksinimler
+## Gereksinimler
 
 * C derleyicisi (gcc önerilir)
 * `ncurses` kütüphanesi
 
-Linux için kurulum:
-
-```bash
-sudo apt install libncurses5-dev libncursesw5-dev
-```
-
 ---
 
-## ⚙️ Derleme ve Çalıştırma
+## Derleme ve Çalıştırma
 
 ```bash
-gcc puzzle.c -o puzzle -lncurses
+gcc Puzzle.c -o Puzzle -lncurses
 ./puzzle
 ```
 
 ---
 
-## 🎹 Kontroller
+## Kontroller
 
 | Tuş   | Açıklama    |
 | ----- | ----------- |
@@ -65,7 +59,7 @@ gcc puzzle.c -o puzzle -lncurses
 
 ---
 
-## 🧠 Nasıl Çalışır?
+## Nasıl Çalışır?
 
 * Tahta **Fisher-Yates shuffle** algoritması ile karıştırılır
 * `is_solvable()` fonksiyonu ile çözülüp çözülemeyeceği kontrol edilir
@@ -74,7 +68,7 @@ gcc puzzle.c -o puzzle -lncurses
 
 ---
 
-## 🏁 Oyun Sonu
+## Oyun Sonu
 
 Tüm taşlar doğru sıraya geldiğinde:
 
@@ -82,11 +76,11 @@ Tüm taşlar doğru sıraya geldiğinde:
 KAZANDINIZ!
 ```
 
-mesajı gösterilir 🎉
+mesajı gösterilir.
 
 ---
 
-## ⚠️ NOT
+## NOT:
 
 Proje **Unix-Based işletim sistemleri** için `ncurses` kullanılarak geliştirilmiştir.
 Windows işletim sistemleri üzerinde çalışmayacaktır.
