@@ -42,7 +42,7 @@ düzenine ulaşmaktır.
 
 ```bash
 gcc Puzzle.c -o Puzzle -lncurses
-./puzzle
+./Puzzle
 ```
 
 ---
